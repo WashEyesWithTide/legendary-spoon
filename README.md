@@ -1,2 +1,9 @@
 # legendary-spoon
-Grade-GPA for AD 300
+
+Programs to convert GPA to Grade and Grade to GPA.
+
+To run files 
+```
+./GPAToGrade.sh
+./GradeToGPA.sh
+```
