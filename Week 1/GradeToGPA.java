@@ -16,7 +16,7 @@ public class GradeToGPA {
     }
 
     public static void calculateGPA(double grade) {
-        if (grade < 0 || grade > 100) {
+        if ((grade < 0 || grade > 100) && (grade != -1)) {
             System.out.println("Invalid grade. Please enter a grade between 0.0 and 100.0.");
             return;
         }
@@ -24,7 +24,7 @@ public class GradeToGPA {
             System.out.println("Your GPA is: " + "4.0");
             return;
         }
-        else if (grade < 65.0) {
+        else if (grade < 65.0 && (grade != -1)) {
             System.out.println("Your GPA is: " + "0.0");
             return;
         }
